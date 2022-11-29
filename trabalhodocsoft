@@ -1,0 +1,41 @@
+import webbrowser
+
+resp = input("""Qual tipo de denuncia gostaria de fazer? Escolha o número:
+
+1= vegetação
+2= fauna
+3= ar
+4= fogo
+5= som
+6= água
+
+""")
+
+print()
+
+if (resp == "1"):
+  print("O número de denúncia pra Vegetação é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+elif (resp == "2"):
+  print("O número de denúncia pra fauna é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+elif (resp == "3"):
+  print("O número de denúncia pra ar é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+elif (resp == "4"):
+  print("O número de denúncia pra fogo é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+elif (resp == "5"):
+  print("O número de denúncia pra som é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+elif (resp == "6"):
+  print("O número de denúncia pra água é: ")
+  webbrowser.open("https://wa.me/558191171407")
+
+else:
+  print(resp +" não é uma opção")
